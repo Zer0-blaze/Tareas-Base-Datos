@@ -41,8 +41,6 @@ end;
 '
 ;
 
-set search_path to cine;
-
 drop trigger if exists trg_validar_rut on cine.cliente;
 
 create trigger trg_validar_rut
